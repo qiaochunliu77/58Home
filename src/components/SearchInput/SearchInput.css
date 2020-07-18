@@ -1,0 +1,42 @@
+.search{
+    position: fixed;
+    top: 0;
+    height: 1.2685rem;
+    width: 100%;
+    display: flex; 
+    padding: 0.1574rem 0;   
+}
+.search .search-input{
+    position: relative;
+    height: 0.9351rem;
+    width: 8.1944rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.search .search-input input{
+    border: none;
+    font-size: 0.3518rem;
+    display: inline-block;
+}
+.search .search-input .search-place{
+    position: absolute;
+    /* line-height:0.9351rem; */
+
+}
+.search .search-input .search-place .search-img{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url('../../assets/images/搜索.png');
+}
+.search .search-input .search-place p{
+    display: inline-block;
+}
+.search .search-input .search-place .place{
+    font-size: 0.3703rem;
+}
+.search img{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.3796rem;
+    top: 0.1795rem;
+}
