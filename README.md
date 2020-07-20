@@ -14,4 +14,8 @@ git checkout -b 2020-7-20-home 切分支
 git check master 回到主分支合并
 git checkout -b 2020-07-16-home 新建同一个分支
 git pull  克隆同步 提示 branch删掉
+<<<<<<< HEAD
 git merge 2020-07-16-home  合并
+=======
+git merge 2020-07-16-home  合并
+>>>>>>> 13dea88915024068caebc7c2c26375897c23efff
